@@ -1,0 +1,22 @@
+@mixin article-assets($color, $border-color, $font: rem(10)) {
+  color: $color;
+  border: 1px solid $border-color;
+  font-size: $font;
+}
+
+@mixin exercice-title($color, $border-color, $font: rem(30)) {
+  color: $color;
+  border-bottom: 2px solid $border-color;
+  font-size: $font;
+}
+
+@mixin article($color, $border-color, $font: rem(30)) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: $color;
+  border: 1px solid $border-color;
+  font-size: $font;
+  height: rem(150);
+  padding: rem(30);
+}

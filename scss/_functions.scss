@@ -1,0 +1,9 @@
+@function rem($px) {
+   $remValue: ($px / 10) + rem;
+   @return $remValue;
+}
+
+/* 1px <=> 0.1rem */
+/* 10px <=> 1rem */
+/* 20px <=> 2rem */
+/* 30px <=> 3rem */

@@ -91,7 +91,7 @@ div .main {
   text-align: center;
   margin-bottom: 2rem;
 }
-div .main article {
+div .main .article {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -101,12 +101,12 @@ div .main article {
   height: 15rem;
   padding: 3rem;
 }
-div .main article p {
+div .main .article p {
   color: blue;
   border: 1px solid none;
   font-size: 1.6rem;
 }
-div .main article .red {
+div .main .article .red {
   color: red;
   border: 1px solid none;
   font-size: none;
@@ -115,7 +115,7 @@ div .footer {
   height: 15rem;
   width: 100%;
 }
-div .footer article {
+div .footer .article {
   color: none;
   border: 1px solid blue;
   font-size: 1rem;
@@ -126,7 +126,7 @@ div .footer article {
   align-items: center;
   text-align: center;
 }
-div .footer article p {
+div .footer .article p {
   color: green;
   border: 1px solid none;
   font-size: 2.4rem;

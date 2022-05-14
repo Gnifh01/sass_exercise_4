@@ -47,7 +47,7 @@ div {
     text-align: center;
     margin-bottom: rem(20);
 
-    article {
+    & .article {
       @include article(none, $color-tertiary);
 
       p {
@@ -64,7 +64,7 @@ div {
     height: rem(150);
     width: 100%;
 
-    article {
+    & .article {
       @include article-assets(none, $color-secondary);
       width: 100%;
       height: 100%;
